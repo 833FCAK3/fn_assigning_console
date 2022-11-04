@@ -1,0 +1,7 @@
+# -i http://production:8081/repository/pypi-all/simple --trusted-host production
+# products-workflow==4.*
+# pga900-product==3.*
+# smart-s-product==3.*
+PyYAML==6.*
+pyinstaller==5.4.1
+click==8.1.3

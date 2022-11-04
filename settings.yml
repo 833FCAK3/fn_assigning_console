@@ -1,0 +1,39 @@
+# URLS
+LOGIN_URL: "http://localhost:8000/api/auth/login"
+LOGOUT_URL: "http://localhost:8000/api/auth/LOGOUT"
+PRODUCTS_URL: "http://localhost:8000/api/products"
+ORDER_SEARCH_URL: "http://localhost:8000/api/orders/search"
+GET_ORDER_URL: "http://localhost:8000/api/orders/"
+
+# AUTH
+API_KEY: "test"
+
+# PGA900 CONFIG
+PGA900_CONFIG: {
+    "connection": {
+        "timeout": 0.1,
+        "write_timeout": 0.1,
+        "port": "COM4",
+        "slave_address": 1,
+    },
+}
+
+
+# EXAMPLE CONFIGS
+SERIAL_CONFIGURATION: {
+    "connection": {
+        "timeout": 0.1,
+        "write_timeout": 0.1,
+        "port": "COM4",
+        "slave_address": 1,
+    }
+}
+
+TCP_CONFIGURATION: {
+    "connection": {
+        "protocol": "modbus serial tcp protocol",
+        "host": "127.0.0.1",
+        "port": 4000,
+        "slave_address": 1,
+    },
+}
